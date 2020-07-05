@@ -6,7 +6,7 @@
 
 body {
     background-image: url(background.jpg);
-    font-family: Lora, 'sans serif';
+    font-family: Dosis, 'sans serif';
 }
 
 .container {
@@ -33,7 +33,7 @@ nav ul li a:visited {
     text-decoration: none;
     font-size: 150%;
     color: black;
-    font-weight: 700;
+    font-weight: 600;
     margin: 1em;
 }
 
@@ -49,7 +49,8 @@ h1 {
 }
 
 .welcome-text {
-    border: 5px solid black;
+    background-color: black;
+    color: whitesmoke;
     padding: 1em;
     line-height: 1.5;
 }
@@ -57,7 +58,7 @@ h1 {
 .welcome-text a:link,
 .welcome-text a:visited {
     text-decoration: none;
-    color: black;
+    color: whitesmoke;
 }
 
 .welcome-text a:hover,
