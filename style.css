@@ -6,5 +6,26 @@
 
 body {
     background-image: url(background.jpg);
+    font-family: Lora, 'sans serif';
+}
+
+.container {
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav {
+    display: flex;
+    align-items: flex-end;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+img {
+    width: 100%;
 }
 
