@@ -79,6 +79,7 @@ img {
 
 footer {
     margin: 1em;
+    font-weight: 700;
 }
 
 @media(max-width: 1120px) {
@@ -112,6 +113,7 @@ footer {
     nav ul {
         display: flex;
         flex-direction: column;
+        margin: -1em;
     }
 
     .welcome-text {
